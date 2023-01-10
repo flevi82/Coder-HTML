@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Signika+Negative:wght@300;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    
+    background-image: url(./Img/1x/header.png);
+    background-position: right;
+    height: 120px;
+    
+}
+
+
+.navbar-nav{
+    text-align: left;
+    margin-top:10px;
+    background-color: #ED897D;
+    gap:50px;
+    border-radius: 10px;
+}
+
+.nav-link{
+    margin-top:0px;  
+    background-size:contain;
+    margin-left: 20px;  
+  
+}
+
+
+
+main{
+    border: none;
+    margin-top: 70px;
+}
+
+h1{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
+    color:#EB7428;
+    font-size: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+p{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    background-image: url(./Img/1x/footer-12.png);
+    background-size: cover;
+    height: 110px;
+    margin-top: 0px;
+    
+    
+}
+
+.iconos { 
+    display: flex;
+    font-size: 40px;
+    height: 80%;
+    gap: 40px;
+    margin-top: 30px;
+    
+    
+  }
+
+  .iconos a{
+    color:white;
+  }
+
+  .bi-facebook:hover{
+    color:cornflowerblue;
+  }
+
+  .bi-whatsapp:hover{
+    color:chartreuse;
+  }
+
+  .bi-instagram:hover{
+    color:coral
+  }
+
+  .textfoot{
+    text-align: center;
+    padding-top: 35px;
+    
+  }
+
+  .p1{
+    height: 80%;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+  
+}
+  .p2{
+    height: 80%;
+    font-size: 30px;
+    color:cornflowerblue;
+    text-transform: uppercase;
+    margin-top:-10px;
+  }
+
+  @media only screen and (max-width: 575px){
+  
+    
+    .iconos { 
+        flex-wrap: wrap;
+        font-size: 30px;
+        height: 80%;
+        gap: 40px;
+    }  
+    
+    .iconos a{
+        color:darkgray;
+    }
+
+      .navbar-nav{
+        gap:0px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
