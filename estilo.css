@@ -14,6 +14,12 @@ header{
     
 }
 
+.barratop{
+  height: 12px;
+  background-color: dimgrey;
+  margin-top: -7px;
+}
+
 
 .navbar-nav{
     text-align: left;
@@ -37,6 +43,14 @@ main{
     margin-top: 70px;
 }
 
+main .col img{
+  transition: all .3s;
+}
+
+main .col img:hover{
+  transform: scale(1.2);
+}
+
 h1{
     font-family: 'Signika Negative', sans-serif;
     font-weight: 700;
@@ -58,7 +72,8 @@ footer {
     background-image: url(./Img/1x/footer-12.png);
     background-size: cover;
     height: 110px;
-    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 30px;
     
     
 }
@@ -66,7 +81,7 @@ footer {
 .iconos { 
     display: flex;
     font-size: 40px;
-    height: 80%;
+    height: 50%;
     gap: 40px;
     margin-top: 30px;
     
@@ -113,6 +128,7 @@ footer {
   /* Nosotros */
 
   section{
+    margin-top:70px;
     margin-bottom: 30px;
   }
 
@@ -121,8 +137,7 @@ footer {
   }
 
   .barra{
-    height: 12px;
-    width: 100%;
+    height: 7px;
     background-color: dimgrey;
     margin-top: -7px;
   }
