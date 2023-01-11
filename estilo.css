@@ -234,6 +234,11 @@ footer {
     .card{
       width: 9rem;
     }
+
+    .embed-responsive-item{
+      width: 15rem;
+      height: auto;
+    }
     }
 
 
