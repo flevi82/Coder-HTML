@@ -58,8 +58,16 @@ h1{
     font-size: 56px;
     text-align: center;
     text-transform: uppercase;
+    animation-name: h1cambiodecolor;
+    animation-duration: 10s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
 }
+
+
 
 p{
     text-align: center;
@@ -133,8 +141,33 @@ footer {
     margin-bottom: 30px;
   }
 
+  .textosnosotros{
+    width: 80%;
+  }
+
   .nosotros h1{
     color: #5c8de2;
+    animation-name: h1cambiodecolor;
+    animation-duration: 10s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes h1cambiodecolor{
+    25% {
+      color: #ED897D;
+    }
+
+    50% {
+      color: #4f4c49;
+      transform: scale(1.2);
+    }
+
+    75%{
+      color: cadetblue;
+    }
   }
 
   .barra{
@@ -208,7 +241,21 @@ footer {
 
   .escribinos{
     margin-top: 30px;
+    width: 80%;
+    
   }
+
+  .parrafo{
+    width: 80%;
+  }
+
+  .contacto{
+    width: 80%;
+  }
+
+
+
+ 
 
   @media only screen and (max-width: 575px){
   
@@ -238,6 +285,12 @@ footer {
     .embed-responsive-item{
       width: 15rem;
       height: auto;
+    }
+
+    .contacto{
+      width: 90%;
+      
+
     }
     }
 
